@@ -1,3 +1,11 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+defaultContentLanguage = 'he'
+
+[languages]
+  [languages.he]
+    disabled = false
+    languageCode = 'he-IL'
+    languageDirection = 'rtl'
+    languageName = 'עברית'
+    title = 'אתר הוגו חדש'
+    weight = 0
